@@ -9,5 +9,7 @@
 }
 
 .footer__copyright {
-  margin: 30px;
+  box-sizing: border-box;
+  /* margin: 20px 0; */
+  /* padding-left: 30px; */
 }
