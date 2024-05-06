@@ -4,7 +4,7 @@ import './footer.css';
 export default function Footer() {
   return (
     <div className='footer'>
-      <p className='footer__copyright'>&copy; 2024, LDK Studio</p>
+      <a className='footer__copyright' href="mailto:razumtsev@mail.ru">&copy; 2024, LDK Studio</a>
     </div>
   )
 }

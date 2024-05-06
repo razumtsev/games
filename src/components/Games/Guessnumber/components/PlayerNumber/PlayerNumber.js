@@ -19,9 +19,9 @@ export default function PlayerNumber({handleSubmit}) {
   }
 
   return (
-    <div>
+    <div className='playernumber'>
       <input
-        className='playernumber'
+        className='playernumber__input'
         type='number'
         min='1'
         max='100'
@@ -29,7 +29,7 @@ export default function PlayerNumber({handleSubmit}) {
         value={number}
       />
       <button
-        className='guessNumber__submit'
+        className='playernumber__submit'
         type='submit'
         onClick={handleButtonClick}
       >Проверить</button>

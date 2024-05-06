@@ -1,5 +1,23 @@
 .header {
-  background-color: aquamarine;
+  background-color: #777;
   max-width: 600px;
   width: 100%;
+  box-sizing: border-box;
+  padding: 0 30px 10px;
+}
+
+.header__title {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.header__button {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__button:hover {
+  color: #f33;
+  text-shadow: 1px 1px 1px rgba(255, 100, 100, .6);
+  transition: all, .1s ease;
 }
