@@ -1,13 +1,13 @@
 import './App.css';
 import Header from './Header/Header';
-import Games from './Games/Games';
+import Main from './Main/Main';
 import Footer from './Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Games />
+      <Main />
       <Footer />
     </div>
   );
