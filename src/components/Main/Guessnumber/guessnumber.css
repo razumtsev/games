@@ -1,9 +1,5 @@
 .guessnumber {
-<<<<<<< HEAD:src/components/Games/Guessnumber/guessnumber.css
-  width: 400px;
-=======
   width: 100%;
->>>>>>> 2bf2d3aa34c77745597307cf02e760369dea8165:src/components/Main/Guessnumber/guessnumber.css
 }
 
 .guessnumber__title {
