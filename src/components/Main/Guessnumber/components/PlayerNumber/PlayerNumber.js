@@ -29,7 +29,7 @@ export default function PlayerNumber({handleSubmit}) {
         value={number}
       />
       <button
-        className='guessNumber__submit'
+        className='playernumber__submit'
         type='submit'
         onClick={handleButtonClick}
       >Проверить</button>

@@ -17,8 +17,13 @@ export default function Guessnumber() {
   }
 
   const makeGameInfo = () => {
+<<<<<<< HEAD:src/components/Games/Guessnumber/Guessnumber.js
     if (attempts === 0) {
       return `Попытки закончились. Было загадано число ${secretNumber}`
+=======
+    if (attempts < 0) {
+      return `Попытки закончились. Вы проиграли. Было загадано число ${secretNumber}`
+>>>>>>> 2bf2d3aa34c77745597307cf02e760369dea8165:src/components/Main/Guessnumber/Guessnumber.js
     }
     if (playerNumber === '') return `Количество попыток: ${attempts}`
     else if (playerNumber === secretNumber) return `Вы угадали, было загадано число ${secretNumber}`
