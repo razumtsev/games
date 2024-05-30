@@ -1,13 +1,13 @@
 .guessnumber {
-
+  width: 400px;
 }
 
 .guessnumber__title {
-
+  text-align: center;
 }
 
 .guessnumber__info {
-  
+  width: 100%;
 }
 
 .guessnumber__input {
